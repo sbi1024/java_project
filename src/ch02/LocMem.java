@@ -16,24 +16,3 @@ public class LocMem {
         return n1 + n2 + n3;
     }
 }
-
-// 1번 4
-// 2번 2
-// 3번 4
-// 4번 3
-// 5번 3 1 2 4
-// 6번 4
-// 7번 1 2 3 4
-// 8번
-// ============
-// 1번 4
-// 2번 2 3 6 7
-// 3번 byte short int long char float double boolean
-// 4번 int double , age price , 15 3.14
-// 5번 3
-// 6번 4
-// 7번 3
-// 8번 안품
-// 9번 1
-// 10번 2
-// 11번 13, 16 라인
