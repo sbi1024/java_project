@@ -29,53 +29,71 @@ public class Test {
 //
 //        System.out.println("========================");
 
-        // 논리 연산자
-        {
-            int x = 10;
-            int y = 10;
-
-//            if (++x == 10 &&  y++ == 10) {
+//        // 논리 연산자
+//        {
+//            int x = 10;
+//            int y = 10;
+//
+////            if (++x == 10 &&  y++ == 10) {
+////                System.out.println("A");
+////            } else {
+////                System.out.println("B");
+////            }
+//            if (++x == 11 && y++ == 10) {
 //                System.out.println("A");
 //            } else {
 //                System.out.println("B");
 //            }
-            if (++x == 11 && y++ == 10) {
-                System.out.println("A");
-            } else {
-                System.out.println("B");
-            }
+//
+//            // x와 y가 모두 11이다.
+//            System.out.println(x);
+//            System.out.println(y);
+//
+//            if (++x == 12 && y++ == 11) {
+//                System.out.println("C");
+//            } else {
+//                System.out.println("D");
+//            }
+//
+//            // x와 y가 모두 12
+//            System.out.println(x);
+//            System.out.println(y);
+//
+//            // && -> ||
+//            // || -> |  쇼트 서킷이 뭐지 ? 전체판명이 나더라도 나머지 판명을 이어간다. 결과적으로 y도 13이 된다.
+//            if (++x == 13 | y++ == 12) {
+//                System.out.println("E");
+//            } else {
+//                System.out.println("F");
+//            }
+//            // x는 먼저 비교가되어서 true로 판명되었음
+//            // 다만 y는 x비교식에서 true로 이미 판명되었기에 전체 OR 연산이 true가 되었기 떄문에 y++ == 10 인 비교식은 수행하지 않음
+//            // x는 13, y는 12
+//            System.out.println(x);
+//            System.out.println(y);
+//
+//            // 여러분은 OR ||로 진행하면서 &&, & 하는 예제를 만들어 보세요.
+//            // 조별활동에서 결과값을 예측하는 퀴즈로 만들어보면 좋다.
+//
+//            // 증감연산자와 논리연산자를 섞어서 한번 해보자.
+//        }
+//
+//        // 삼항 연산자
+//        {
+//            int score = 86;
+//            // ...
+//            // score > 90 아면 'A'
+//            // score <= 90 일 때 'B'
+//            // score < 80 일 때
+//            char grade = score > 90 ? 'A' : (score >= 80) ? 'B' : 'C';
+//            System.out.println(grade);
+//        }
 
-            // x와 y가 모두 11이다.
-            System.out.println(x);
-            System.out.println(y);
-
-            if (++x == 12 && y++ == 11) {
-                System.out.println("C");
-            } else {
-                System.out.println("D");
-            }
-
-            // x와 y가 모두 12
-            System.out.println(x);
-            System.out.println(y);
-
-            // && -> ||
-            // || -> |  쇼트 서킷이 뭐지 ? 전체판명이 나더라도 나머지 판명을 이어간다. 결과적으로 y도 13이 된다.
-            if (++x == 13 | y++ == 12) {
-                System.out.println("E");
-            } else {
-                System.out.println("F");
-            }
-            // x는 먼저 비교가되어서 true로 판명되었음
-            // 다만 y는 x비교식에서 true로 이미 판명되었기에 전체 OR 연산이 true가 되었기 떄문에 y++ == 10 인 비교식은 수행하지 않음
-            // x는 13, y는 12
-            System.out.println(x);
-            System.out.println(y);
-
-            // 여러분은 OR ||로 진행하면서 &&, & 하는 예제를 만들어 보세요.
-            // 조별활동에서 결과값을 예측하는 퀴즈로 만들어보면 좋다.
-
-            // 증감연산자와 논리연산자를 섞어서 한번 해보자.
+        // 나눗셈 연산자
+        {
+            int a = 10;
+            double b = a / 3;
+            System.out.println(b);
         }
     }
 }
