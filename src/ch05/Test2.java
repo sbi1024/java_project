@@ -49,6 +49,9 @@ public class Test2 {
             // subString()
             System.out.println(str.substring(3, 5));
             System.out.println(str.substring(0, str.indexOf("l")) + "X" + str.substring(str.indexOf("l") + 1, str.length()));
+
+
+
         }
     }
 }
