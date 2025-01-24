@@ -5,5 +5,9 @@ public class Test2 {
         Super s = new Sub();
         s.m();
         s.m2();
+
+        {
+
+        }
     }
 }
