@@ -6,8 +6,8 @@ public class MyIFImpl implements MyIF, YourIF {
         System.out.println("MyIFImpl m()");
     }
 
-    @Override
-    public void m2() {
-
-    }
+//    @Override
+//    public void m2() {
+//
+//    }
 }
